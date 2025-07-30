@@ -27,7 +27,6 @@ A API possui suporte para **11 tabelas** diferentes, cada uma com dois endpoints
 
 #### 🔹 GET `/aluno`
 
-```http
 GET http://localhost:5010/aluno
 🔹 POST /aluno
 http

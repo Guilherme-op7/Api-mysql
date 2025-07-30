@@ -23,23 +23,6 @@ A API possui suporte para **11 tabelas** diferentes, cada uma com dois endpoints
 - **GET /tabela** → Lista todos os registros da tabela
 - **POST /tabela** → Insere um novo registro na tabela
 
-### ✅ Exemplo de Uso
-
-#### 🔹 GET `/aluno`
-
-GET http://localhost:5010/aluno
-🔹 POST /aluno
-http
-Copiar
-Editar
-POST http://localhost:5010/aluno
-Content-Type: application/json
-
-{
-  "nome": "João Silva",
-  "idade": 18,
-  "curso_id": 2
-}
 🔧 Como Rodar o Projeto
 Clone este repositório:
 

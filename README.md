@@ -1,9 +1,8 @@
-# 🧠 Projeto API Escolar - Node.js + Express + MySQL2
+# 🧠 Projeto API - Node.js + Express + MySQL2
 
 Este projeto foi desenvolvido como parte da disciplina de Algoritmos e programação, com o objetivo de transformar as tabelas criadas nos bimestres anteriores em uma API funcional. A aplicação foi construída com **Node.js**, **Express** e **MySQL2**, com foco em organização, boas práticas e funcionamento completo dos endpoints.
 
-> ⏱ Finalizado um dia depois da entrega oficial.  
-> 👨‍💻 Guilherme Neto - 3º ano Informática D
+> 👨‍💻 Guilherme Neto -  Informática D
 
 ---
 

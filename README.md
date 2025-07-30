@@ -26,7 +26,7 @@ A API possui suporte para **11 tabelas** diferentes, cada uma com dois endpoints
 🔧 Como Rodar o Projeto
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Guilherme-op7/Api-mysql.git
 Instale as dependências:
 
 npm install
@@ -44,7 +44,4 @@ Prática real com CRUD e APIs REST
 
 Reutilização de tabelas anteriores
 
-Organização de projetos com múltiplos repositórios
-
-#borapracima
-#sanguenosoio 🔥
+Organização de projetos com múltiplos repositórios.

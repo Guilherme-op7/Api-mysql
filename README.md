@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e programa√
 - Express
 - MySQL2
 - Thunder Client (para testes dos endpoints)
-- JavaScript (ESModules)
+- JavaScript 
 
 ---
 

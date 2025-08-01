@@ -8,7 +8,9 @@ export async function CriarTime(time) {
                 `INSERT INTO times_futebol (nome, cidade, estado, pais, ano_fundacao, estadio, capacidade_estadio, tecnico, liga) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
                 [time.nome, time.cidade, time.estado, time.pais, time.ano_fundacao, time.estadio, time.capacidade_estadio, time.tecnico, time.liga]
             );
-        return resposta;
+
+        let Idtime = resposta.insertId
+        return Idtime;
     }
 
     catch (err) {

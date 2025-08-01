@@ -25,7 +25,8 @@ export async function CriarJogo(jogos) {
                 [jogos.titulo, jogos.genero, jogos.plataforma, jogos.data_lancamento, jogos.preco, jogos.classificacao_etaria, jogos.desenvolvedora]
             )
 
-        return resultados
+            let idJogo = resultados.insertId
+        return idJogo
     }
 
     catch (err) {

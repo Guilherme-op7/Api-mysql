@@ -26,7 +26,9 @@ try {
             [tenis.nome, tenis.marca, tenis.cor, tenis.tamanho, tenis.preco, tenis.categoria, tenis.estoque]
         )
 
-    return resultados
+    let idTenis = resultados.insertId
+
+    return idTenis
 }
 
 catch (err) {

@@ -7,7 +7,9 @@ export async function ListarSeries() {
                 `SELECT * FROM series`
             )
 
-        return respostas
+        let Idserie = respostas.insertId
+
+        return Idserie
     }
 
     catch (err) {

@@ -25,8 +25,8 @@ export async function CriarEsporte(esportes) {
                 VALUES (?, ?, ?, ?, ?, ?)`,
                 [esportes.nm_esporte, esportes.modalidade_esporte, esportes.origem_esporte, esportes.ano_de_criacao, esportes.numero_de_jogadores, esportes.popularidade_esporte]
             )
-
-        return respostas;
+            let IdEsportes = respostas.insertId
+        return IdEsportes;
     }
 
     catch (err) {

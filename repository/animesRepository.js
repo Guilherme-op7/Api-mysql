@@ -26,7 +26,8 @@ export async function CriarAnimes(anime) {
                 [anime.nome, anime.genero, anime.episodios, anime.ano_lancamento, anime.estudio, anime.avaliacao]
             );
 
-        return resposta;
+            let idJogo = resposta.insertId
+        return idJogo
     }
 
     catch (err) {

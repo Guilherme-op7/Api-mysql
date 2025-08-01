@@ -6,10 +6,10 @@ export async function ListarEstados() {
             await connection.query(
                 `SELECT * FROM estado`
             )
-        
+
         return resultados
-    } 
-    
+    }
+
     catch (err) {
         console.error('erro ao listar todos os estados!' + err)
     }
@@ -23,8 +23,8 @@ export async function CriarEstado(estado) {
             VALUES (?, ?, ?, ?)`,
                 [estado.nm_estado, estado.regiao_estado, estado.capital_estado, estado.praia_estado]
             )
-
-        return resultados
+        let idEstado = resultados.insertId
+        return idEstado
     }
 
     catch (err) {

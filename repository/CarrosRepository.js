@@ -25,8 +25,9 @@ export async function CriarCarros(carros) {
                 VALUES (?, ?, ?, ?, ?, ?, ?)`,
                 [carros.id, carros.Valor, carros.Placa, carros.modelo, carros.ano_fabricacao, carros.cor, carros.ar_condicionado]
             );
-
-        return respostas;
+        
+        let IdCarro = respostas.insertId
+        return IdCarro;
     }
 
     catch (err) {

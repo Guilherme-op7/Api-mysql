@@ -25,7 +25,9 @@ export async function CriarPizzas(pizzas) {
                 [pizzas.nome, pizzas.descricao, pizzas.preco, pizzas.tamanho, pizzas.vegetariana, pizzas.ingredientes, pizzas.categoria]
             )
 
-        return resultados
+        let IdPizzas = resultados.insertId
+
+        return IdPizzas
     }
 
     catch (err) {

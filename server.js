@@ -28,8 +28,7 @@ server.post('/times', async (req, res) => {
     let Idtime = await CriarTime(times)
 
     res.status(201).json({
-        id: Idtime,
-        ...times
+        id: Idtime
     });
 })
 
@@ -45,8 +44,7 @@ server.post('/animes', async (req, res) => {
     let Idanime = await CriarAnimes(animes);
 
     res.status(201).json({
-        id: Idanime,
-        ...animes
+        id: Idanime
     });
 });
 
@@ -62,8 +60,7 @@ server.post('/series', async (req, res) => {
     let Idserie = await CriarSerie(series);
 
     res.status(201).json({
-        id: Idserie,
-        ...series
+        id: Idserie
     })
 })
 
@@ -79,8 +76,7 @@ server.post('/carros', async (req, res) => {
     let Idcarro = await CriarCarros(carros);
 
     res.status(201).json({
-        id: Idcarro,
-        ...carros
+        id: Idcarro
     })
 })
 
@@ -96,8 +92,7 @@ server.post('/esportes', async (req, res) => {
     let idEsportes = await CriarEsporte(esportes);
 
     res.status(201).json({
-        id: idEsportes,
-        ...esportes
+        id: idEsportes
     })
 })
 
@@ -113,8 +108,7 @@ server.post('/turmas', async (req, res) => {
     let IdTurmas = await CriarTurma(turmas);
 
     res.status(201).json({
-        id: IdTurmas,
-        ...turmas
+        id: IdTurmas
     })
 })
 
@@ -130,8 +124,7 @@ server.post('/pacientes', async (req, res) => {
     let IdPacientes = await CriarPaciente(pacientes)
 
     res.status(201).json({
-        id: IdPacientes,
-        ...pacientes
+        id: IdPacientes
     })
 })
 
@@ -147,8 +140,7 @@ server.post('/jogos', async (req, res) => {
     let IdJogos = await CriarJogo(jogos)
 
     res.status(201).json({
-        id: IdJogos,
-        ...jogos
+        id: IdJogos
     })
 })
 
@@ -164,8 +156,7 @@ server.post('/pizza', async (req, res) => {
     let IdPizza = await CriarPizzas(pizzas);
 
     res.status(201).json({
-        id: IdPizza,
-        ...pizzas
+        id: IdPizza
     })
 })
 
@@ -181,8 +172,7 @@ server.post('/tenis', async (req, res) => {
     let idTenis = await CriarTenis(tenis)
 
     res.status(201).json({
-        id: idTenis, 
-        ... tenis
+        id: idTenis
     })
 })
 
@@ -198,8 +188,7 @@ server.post('/estados', async (req, res) => {
     let IdEstados = await CriarEstado(estados)
 
     res.status(201).json({
-        id: IdEstados,
-        ... estados
+        id: IdEstados
     })
 })
 

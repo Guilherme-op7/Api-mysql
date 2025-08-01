@@ -26,7 +26,9 @@ export async function CriarTurma(turma) {
                 [turma.nm_curso, turma.ds_curso, turma.nr_ano_letivo, turma.qtd_capacidade, turma.bt_ativo, turma.dt_inclusao]
             )
 
-        return respostas;
+        let Idturmas = respostas.insertId
+
+        return Idturmas
     } 
     
     catch (err) {

@@ -24,10 +24,10 @@ export async function CriarPaciente(pacientes) {
             VALUES (?, ?, ?, ?, ?, ?)`,
                 [pacientes.nome, pacientes.idade, pacientes.sexo, pacientes.endereco, pacientes.telefone, pacientes.data_admissao]
             )
+        let IdPacientes = resultados.insertId
+        return IdPacientes
+    }
 
-        return resultados
-    } 
-    
     catch (err) {
         console.error('Erro ao criar o paciente!' + err)
         throw err

@@ -18,10 +18,9 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e programa�
 
 ## 📌 Funcionalidades
 
-A API possui suporte para **11 tabelas** diferentes, cada uma com dois endpoints:
+A API possui suporte para **10 tabelas** diferentes, cada uma com 6 endpoints:
 
-- **GET /tabela** → Lista todos os registros da tabela
-- **POST /tabela** → Insere um novo registro na tabela
+
 
 🔧 Como Rodar o Projeto
 Clone este repositório:
